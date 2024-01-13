@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .column{
+     margin: auto;
+      height: 85vh;
+      border: 1px solid #cecece;
+      width: 50%;
+      height: 93vh;
+  }
+  
+  .Available{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    border-bottom: 2px solid #dbdbdb;
+    background: #f6f6f6;
+    height: 7vh;
+    align-items: center;
+    padding-left: 25px;
+  }
+  .Available h4{
+    color: #4f6c92;
+  }
+  .Available p{
+    color: #A4B8B3;
+  }
+  .filter{
+      display: flex;
+      justify-content: space-between; 
+      border-bottom: 2px solid #dbdbdb;
+      align-items: center;
+      height: 10vh;   
+      padding-left: 25px;
+      height: vh;
+  }
+  .Timing h4{
+    color: #4F6C92;
+  }
+  .Timing span{
+    color: #A4B8D3;
+  }
+  .Overall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+  }
+  
+  .shifts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  button{
+    padding: 6px 20px 6px 20px;
+    border-radius: 15px;
+    border: 1px solid #16A64D ;
+    color: #16A64D;
+    background: white;
+    font-weight:bolder;
+    font-size: 13.5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .btn1{
+  margin-right: 10px;
+  }
+
+  .country-row span {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .country-row{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .country-row span.selected {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .country-row span:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .btn1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  button:disabled {
+    cursor: not-allowed;
+  }
+  
+  .canceled-label {
+    color: #f55671;
+    font-weight: bold;
+  }
